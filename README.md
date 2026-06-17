@@ -31,12 +31,20 @@ This project demonstrates the design and implementation of reusable UI component
 
 Advanced-Component-Design/
 ```text
+Advanced-Component-Design/
+│
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
 ├── COMPONENT_DOCUMENTATION.md
 └── screenshots/
+    ├── dashboard.png
+    ├── modal-open.png
+    ├── accordion-open.png
+    ├── tabs-working.png
+    └── toast-notification.png
+
 ```
 ## Learning Outcomes
 
