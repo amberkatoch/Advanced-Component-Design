@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Component Design</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Reusable UI Components</h1>
+    <div class="stats">
+    <div class="card">
+        <h3>5+</h3>
+        <p>Components</p>
+    </div>
+
+    <div class="card">
+        <h3>100%</h3>
+        <p>Responsive</p>
+    </div>
+
+    <div class="card">
+        <h3>Modern</h3>
+        <p>UI Design</p>
+    </div>
+</div>
+</div>
+
+    <!-- Modal -->
+    <section>
+        <h2>Modal Component</h2>
+        <button id="openModal">Open Modal</button>
+    </section>
+
+    <!-- Accordion -->
+    <section>
+        <h2>Accordion Component</h2>
+
+        <button class="accordion">
+            What is HTML?
+        </button>
+        <div class="panel">
+            HTML is the structure of web pages.
+        </div>
+
+        <button class="accordion">
+            What is CSS?
+        </button>
+        <div class="panel">
+            CSS styles web pages.
+        </div>
+    </section>
+
+    <!-- Tabs -->
+    <section>
+        <h2>Tabs Component</h2>
+
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="tab1">HTML</button>
+            <button class="tab-btn" data-tab="tab2">CSS</button>
+            <button class="tab-btn" data-tab="tab3">JS</button>
+        </div>
+
+        <div id="tab1" class="tab-content active">
+            HTML Content
+        </div>
+
+        <div id="tab2" class="tab-content">
+            CSS Content
+        </div>
+
+        <div id="tab3" class="tab-content">
+            JavaScript Content
+        </div>
+    </section>
+
+    <!-- Dropdown -->
+    
+    <section>
+        <h2>Dropdown Component</h2>
+
+        <select>
+            <option>Select Technology</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+    </section>
+
+    <!-- Toast -->
+    <section>
+        <h2>Toast Notification</h2>
+        <button id="showToast">Show Toast</button>
+    </section>
+</div>
+
+<div id="toast">Action Successful!</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <h2>Reusable Modal</h2>
+        <p>This is a reusable modal component.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
